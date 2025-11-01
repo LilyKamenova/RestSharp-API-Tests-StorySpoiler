@@ -41,6 +41,7 @@ JSON serialization
 
 ```
 🧱 Project Structure
+
 RestSharp-API-Tests-StorySpoiler/
 ├── StorySpoilerTests/
 │   ├── StorySpoilerTests.cs
