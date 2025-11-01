@@ -24,12 +24,19 @@ JSON serialization
 
 🧠 Implemented Test Scenarios
 #	Test Case	Endpoint	Expected Result
+
 1	Create Story	POST /api/Story/Create	201 Created + “Successfully created!”
+
 2	Edit Story	PUT /api/Story/Edit/{id}	200 OK + “Successfully edited”
+
 3	Get All Stories	GET /api/Story/All	200 OK + Non-empty array
+
 4	Delete Story	DELETE /api/Story/Delete/{id}	200 OK + “Deleted successfully!”
+
 5	Create Story (Missing Fields)	POST /api/Story/Create	400 Bad Request
+
 6	Edit Non-existing Story	PUT /api/Story/Edit/{invalidId}	404 Not Found
+
 7	Delete Non-existing Story	DELETE /api/Story/Delete/{invalidId}	400 Bad Request
 
 ```
